@@ -1,3 +1,4 @@
+[![CI](https://github.com/bonaventura28/chat-bot-game/actions/workflows/main.yml/badge.svg)](https://github.com/bonaventura28/chat-bot-game/actions/workflows/main.yml)
 # Simple Telegram based game
 
 This project uses under the hood a popular java abstraction library for accessing Telegram Bot API - [org.telegram.telegrambots](https://github.com/rubenlagus/TelegramBots)
@@ -26,3 +27,8 @@ This project uses under the hood a popular java abstraction library for accessin
 
 ## Test from git and Vim
 Test
+**QA**
+*Jira*
+_English_
+~~API testing~~
+###### France
