@@ -77,6 +77,8 @@ public class BotEngine extends TelegramLongPollingBot {
             default:
                 throw new IllegalArgumentException(String.format("this input [%s] is not implemented yet!", message.getText()));
         }
+        LOGGER.info(String.format("message [%s] was sent with success for user [%s]", text, message.getFrom().getFirstName()));
+
         SendMessage messageToBeSend = new SendMessage() // Create a SendMessage object with mandatory fields
             .setChatId(message.getChatId())
             .setReplyToMessageId(message.getMessageId())
