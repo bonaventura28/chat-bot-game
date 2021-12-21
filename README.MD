@@ -27,8 +27,8 @@ This project uses under the hood a popular java abstraction library for accessin
 
 ## Test from git and Vim
 Test
-**QA**
-*Jira*
-_English_
-~~API testing~~
-###### France
+**My name is Dmitry, I'm 23 years old**
+*JI'm working as manual qa engineer*
+_My native language is russian and ukrainian_
+~~But I also speak English and French~~
+__I want to do an internship in a large company in france__ 
