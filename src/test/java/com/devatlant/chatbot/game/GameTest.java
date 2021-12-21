@@ -44,4 +44,18 @@ class GameTest {
         // assert
         assertEquals(1, res.counter);
     }
+    @Test
+    public boolean  should_return_false_for_text_anyText(){
+        boolean test = Game.isInteger("text");
+        if (test) return false;
+        else return true;
+    }
+
+    @Test
+    public boolean should_return_true_for_int_100(){
+        boolean test = Game.isInteger("100");
+        if (test) return true ;
+        else  return false;
+
+    }
 }
